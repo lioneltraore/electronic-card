@@ -10,9 +10,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Color.fromRGBO(37, 48, 42, 1),
+        backgroundColor: Color.fromRGBO(37, 38, 42, 1),
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: const [
               CircleAvatar(
                 backgroundImage: AssetImage("images/profile.png"),
@@ -40,6 +41,72 @@ class MyApp extends StatelessWidget {
                 width: 150,
                 child: Divider(
                   color: Color.fromRGBO(252, 234, 206, 0.4),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(
+                  vertical: 10,
+                  horizontal: 24,
+                ),
+                color: Color.fromRGBO(252, 234, 206, 1),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    size: 24,
+                    color: Color.fromRGBO(37, 38, 42, 1),
+                  ),
+                  title: Text(
+                    "+226 00 00 00 00",
+                    style: TextStyle(
+                        color: Color.fromRGBO(37, 38, 42, 1),
+                        fontFamily: "Open Sans",
+                        fontSize: 20,
+                        fontWeight: FontWeight.w500),
+                  ),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(
+                  vertical: 10,
+                  horizontal: 24,
+                ),
+                color: Color.fromRGBO(252, 234, 206, 1),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.mail,
+                    size: 24,
+                    color: Color.fromRGBO(37, 38, 42, 1),
+                  ),
+                  title: Text(
+                    "traoregex@gmail.com",
+                    style: TextStyle(
+                      color: Color.fromRGBO(37, 38, 42, 1),
+                      fontFamily: "Open Sans",
+                      fontSize: 20,
+                    ),
+                  ),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(
+                  vertical: 10,
+                  horizontal: 24,
+                ),
+                color: Color.fromRGBO(252, 234, 206, 1),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.language,
+                    size: 24,
+                    color: Color.fromRGBO(37, 38, 42, 1),
+                  ),
+                  title: Text(
+                    "www.lioneltraore.com",
+                    style: TextStyle(
+                      color: Color.fromRGBO(37, 38, 42, 1),
+                      fontFamily: "Open Sans",
+                      fontSize: 20,
+                    ),
+                  ),
                 ),
               ),
             ],
