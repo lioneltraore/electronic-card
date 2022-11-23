@@ -14,12 +14,22 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
-              CircleAvatar(
-                backgroundImage: AssetImage("images/profile.png"),
-                radius: 60,
+            children: [
+              Container(
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    width: 4,
+                    style: BorderStyle.solid,
+                    color: const Color.fromRGBO(252, 234, 206, 1),
+                  ),
+                  borderRadius: BorderRadius.circular(100),
+                ),
+                child: const CircleAvatar(
+                  backgroundImage: AssetImage("images/profile.png"),
+                  radius: 70,
+                ),
               ),
-              Text(
+              const Text(
                 "LIONEL TRAORE",
                 style: TextStyle(
                     color: Color.fromRGBO(252, 234, 206, 1),
