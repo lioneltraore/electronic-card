@@ -1,16 +1,12 @@
-# electronic_card
+# Electronic Card
 
-A new Flutter project.
+A Flutter project to display an electronic business card
 
-## Getting Started
+### Screenshot
 
-This project is a starting point for a Flutter application.
+![](./screenshot.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Author
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Website - [Lionel Traore](https://lioneltraore.com)
+- Twitter - [@traore_lionel](https://www.twitter.com/traore_lionel)
